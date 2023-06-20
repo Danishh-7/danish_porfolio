@@ -219,6 +219,11 @@ form .btn2 {
     background-color: #ff004f;
     color: white;
 }
+#msg{
+    color: #61b752;
+    margin-top:-10px;
+    display:block;
+}
 .copyright{
     width: 100%;
     text-align: center;
