@@ -402,102 +402,7 @@ p.tab-links {
     }
     }
 
-/* @media  ((min-width:600px) and (max-width: 998px)) {
-    html{
-        font-size: 45%;
-    }
-    nav .fas{
-        display: block;
-        font-size: 3rem;
-        top: 2.5rem;
-        left: 2rem;
-      }
-    
-      nav ul {
-        background:#ff004f ;
-        position: fixed;
-        top: 0;
-        right: 0;
-        width: -22rem;
-        height: 100vh;
-        padding-top: 3rem;
-        z-index: 2;
-        transition: right 0.5s;
-         }
-         nav ul li{
-            display: block;
-            margin: 5rem;
-            
-         }
-         nav ul .fas{
-            position: absolute;
-            top: 2.5rem;
-            left: 2.5rem;
-            cursor: pointer;
-         }
-         #header {
-            width: 90%;
-            
-            background-size: 30%;
-            background-repeat: no-repeat;
-            background-position: right;
-        }
-    
 
-} */
-/* @media  ((min-width:0px) and (max-width: 998px)) {
-    html{
-        font-size: 35%;
-        width: 80%;
-    }
-    nav .fas{
-        display: block;
-        font-size: 3rem;
-        top: 2.5rem;
-        left: 2rem;
-      }
-    
-      nav ul {
-        background:red ;
-        position: fixed;
-        top: 0;
-        right: 0;
-        width: -22rem;
-        height: 100vh;
-        padding-top: 3rem;
-        z-index: 2;
-        transition: right 0.5s;
-         }
-         nav ul li{
-            display: block;
-            margin: 5rem;
-            
-         }
-         nav ul .fas{
-            position: absolute;
-            top: 2.5rem;
-            left: 2.5rem;
-            cursor: pointer;
-         }
-         #header {
-            width: 90%;
-        
-            background-size: 30%;
-            background-repeat: no-repeat;
-            background-position: right;
-        }
-
-        form .btn2 {
-            padding: 0.6999999999999993rem 2.0999999999999996rem;
-            font-size: 3rem;
-            margin-top: 0.1rem;
-            cursor: pointer;
-            border-radius: 1rem;
-            background-color: #ff004f;
-            color: white;
-        }
-    
-    } */
 /* @media screen and (max-width: 1400px) {
     html{
         font-size: 62.5%;
@@ -548,7 +453,7 @@ p.tab-links {
   }
 
   nav ul {
-    background:red ;
+    background:rgb(247, 90, 90);
     position: fixed;
     top: 0;
     right: 0;
@@ -633,7 +538,7 @@ p.tab-links {
   }
 }
 #msg{
-    color: #61b752;
+    color: rgb(247, 90, 90);
     margin-top:-10px;
     display:block;
 }
