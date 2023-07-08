@@ -75,7 +75,7 @@ nav ul li a:hover::after{
     font-size: 6rem;
 }
 .header-text h1 span{
-color: #f53131;
+color: #ff004f;
 }
 
 /* <!-- -----about----- --> */
@@ -120,7 +120,7 @@ color: #f53131;
     content: '';
     width: 0;
     height: 0.3rem;
-    background: red;
+    background: #ff004f;
     position: absolute;
     left:0;
     bottom: -0.8rem;
@@ -134,7 +134,7 @@ list-style: none;
 margin: 1rem 0;
 }
 .tab-contents ul li span{
-    color: red;
+    color: #ff004f;
     font-size: 1.4rem;
 }
 .tab-contents{
@@ -160,7 +160,7 @@ margin: 1rem 0;
     font-size: 3rem;
 }
 .contact-left p i{
-    color: red;
+    color: #ff004f;
     margin-right: 1.5rem;
     font-size: 2.5rem;
 }
@@ -271,7 +271,7 @@ nav .fas{
         font-size:35px ;
     }
     .tab-contents ul li span {
-        color: red;
+        color: #ff004f;
         font-size: 40px;
     }
     
@@ -453,7 +453,7 @@ p.tab-links {
   }
 
   nav ul {
-    background:rgb(247, 90, 90);
+    background:#ff004f;
     position: fixed;
     top: 0;
     right: 0;
@@ -538,7 +538,7 @@ p.tab-links {
   }
 }
 #msg{
-    color: rgb(247, 90, 90);
+    color: #ff004f;
     margin-top:-10px;
     display:block;
 }
