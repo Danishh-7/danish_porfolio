@@ -109,8 +109,13 @@ color: #ff004f;
     display: flex;
     margin: 2rem 0 4rem;
 }
+/* .tab{
+   display: flex;
+   justify-content: center;
+} */
 .tab-links{
     margin-right: 5rem;
+   
     font-size: 1.8rem;
     font-weight:500;
     cursor: pointer;
@@ -211,13 +216,20 @@ border-radius: 0.6rem;
     flex-wrap: wrap;
 }
 form .btn2 {
-    padding: 0.6999999999999993rem 2.0999999999999996rem;
+    padding: 0.69rem 2.099rem;
     font-size: 3rem;
     margin-top: 0.1rem;
     cursor: pointer;
     border-radius: 1rem;
     background-color: #ff004f;
     color: white;
+}
+
+form .btn:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.4);
+    border-left: 5px solid #f26e98;
+    border-bottom: 5px solid #e15682;
 }
 
 .copyright{
@@ -538,8 +550,86 @@ p.tab-links {
   }
 }
 #msg{
-    color: #ff004f;
+    color: #33e50f;
     margin-top:-10px;
     display:block;
 }
 
+/* Experience Section */
+#experience {
+    padding: 8rem 0;
+    background-color: #1e1e1e;
+}
+
+#experience .sub-title {
+    font-size: 4.5rem;
+    font-weight: 600;
+    color: white;
+    text-align: center;
+    margin-bottom: 3rem;
+}
+
+/* Card Container */
+#experience .card-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+/* Individual Experience Cards */
+#experience .card {
+    background-color: #262626;
+    color: white;
+    padding: 2rem;
+    width: 30%;
+    border-radius: 1rem;
+    margin: 1.5rem;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    transition: transform 0.3s, box-shadow 0.3s;
+    display: inline-block;
+    vertical-align: top;
+}
+
+/* Hover effect for cards */
+#experience .card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.4);
+    border-left: 5px solid #ff004f;
+}
+
+/* Title, Subtitle and Content Styling */
+#experience .card h3 {
+    font-size: 2.8rem;
+    color: #ff004f;
+    margin-bottom: 1rem;
+}
+
+#experience .card h4 {
+    font-size: 2rem;
+    color: #ababab;
+    margin-bottom: 1.5rem;
+}
+
+#experience .card p {
+    font-size: 1.6rem;
+    line-height: 1.8;
+    color: #ababab;
+}
+
+#experience .card span {
+    display: inline-block;
+    font-size: 1.4rem;
+    color: white;
+    background-color: #ff004f;
+    padding: 0.5rem 1.5rem;
+    border-radius: 0.4rem;
+    margin-top: 1rem;
+}
+
+/* Responsive Cards for smaller screens */
+@media screen and (max-width: 998px) {
+    #experience .card {
+        width: 80%;
+        margin: 2rem auto;
+    }
+}
